@@ -10,8 +10,18 @@ namespace Day_3
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello Word!");
+            Funkcija();
             Console.ReadLine();
         }
+
+        static void Funkcija()
+        { 
+            int a ,b ,c;
+            a = 7;
+            b = 8;
+            c = a + b;
+            Console.WriteLine(c);
+            
+    }
     }
 }
